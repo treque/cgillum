@@ -1,0 +1,13 @@
+Q1: On pourrait vouloir que la texture de l'échiquier se « déplace » sur
+    l'objet en fonction du temps, comme si elle glissait sur la surface dans
+    une direction donnée. Comment implanteriez-vous cette fonctionnalité?
+
+
+Q2: Vous avez probablement remarqué que même en demandant un très grand
+    niveau de tessellation, le générateur de tessellation ne produira pas
+    une tessellation plus fine que le niveau maximum donné par la constante
+    GL_MAX_TESS_GEN_LEVEL.  (On peut obtenir la valeur de cette constante
+    avec glGet() et elle doit être au moins 64.)
+    Que doit-on alors faire si on veut, malgré tout, une tessellation deux
+    fois plus fine dans chaque direction?
+

@@ -1,0 +1,29 @@
+    q:  Quitter l'application
+    x:  Activer/désactiver l'affichage des axes
+    9:  Permuter l'utilisation des nuanceurs de tessellation
+    v:  Recharger les fichiers des nuanceurs et recréer le programme
+    w:  Alterner entre le modèle d'illumination: Gouraud, Phong
+    r:  Alterner entre le modèle de réflexion spéculaire: Phong, Blinn
+    p:  Permuter lumière positionnelle ou directionnelle
+    y:  Incrémenter le coefficient de brillance
+    h:  Décrémenter le coefficient de brillance
+    m:  Choisir le modèle affiché: cube, tore, sphère, théière, cylindre, cône
+    0:  Replacer Caméra et Lumière afin d'avoir une belle vue
+    t:  Choisir la texture de couleurs utilisée: aucune, Terre, échiquier, mur, métal, mosaique
+    e:  Choisir la texture de normales utilisée: aucune, pierre, bulles, mur, brique, circuit
+    f:  Changer l'affichage d'un texel foncé (0:normalement, 1:mi-coloré, 2:transparent)
+    i:  Augmenter le niveau de tessellation interne
+    k:  Diminuer le niveau de tessellation interne
+    o:  Augmenter le niveau de tessellation externe
+    l:  Diminuer le niveau de tessellation externe
+    u:  Augmenter les deux niveaux de tessellation
+    j:  Diminuer les deux niveaux de tessellation
+    POINT:  Augmenter l'effet du déplacement (voir Apprentissage supplémentaire)
+    VIRGULE:  Diminuer l'effet du déplacement (voir Apprentissage supplémentaire)
+    BARREOBLIQUE:  Permuter la projection: perspective ou orthogonale
+    g:  Permuter l'affichage en fil de fer ou plein
+    n:  Utiliser ou non les normales calculées comme couleur (pour le débogage)
+    ESPACE:  Permuter la rotation automatique du modèle
+    BOUTON_GAUCHE:  Tourner l'objet
+    BOUTON_DROIT:  Déplacer la lumière
+    Molette:  Changer le coefficient de brillance
