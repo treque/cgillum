@@ -77,7 +77,7 @@ void main( void )
         }
         FragColor = coul;
     }
-    else {
+    else { // gouraud
          FragColor = AttribsIn.couleur;
     }
 

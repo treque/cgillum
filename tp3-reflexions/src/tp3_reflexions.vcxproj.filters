@@ -57,6 +57,8 @@
   <ItemGroup>
     <None Include="nuanceurFragments.glsl" />
     <None Include="nuanceurSommets.glsl" />
+    <None Include="nuanceurTessEval.glsl" />
+    <None Include="nuanceurTessCtrl.glsl" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

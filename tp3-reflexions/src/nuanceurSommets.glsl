@@ -59,17 +59,24 @@ out Attribs {
 
 vec4 calculerReflexion( in int j, in vec3 L, in vec3 N, in vec3 O ) // pour la lumière j
 {
-	float NdotHV = max(0.0, (utiliseBlinn) ? dot(normalize(L + O), N) : dot(reflect(-L, N), O));
-    float NdotL = max(0.0, dot(N, L));
+	
+	float NdotHV = max((utiliseBlinn) ? dot(normalize(L + O), N) : dot(reflect(-L, N), O), 0.0);
+    float NdotL = max(dot(N, L), 0.0);
 
-    return FrontMaterial.diffuse * LightSource.diffuse[j] * NdotL +
-           FrontMaterial.ambient * LightSource.ambient[j] +
-           FrontMaterial.specular * LightSource.specular[j] * pow(NdotHV, FrontMaterial.shininess);
+	vec4 ambient = LightSource.ambient[j] * FrontMaterial.ambient;
+	vec4 diffuse = LightSource.diffuse[j] * FrontMaterial.diffuse * NdotL;
+	
+	vec4 spec = vec4( 0.0 );
+	if ( NdotL > 0.0 )
+		spec = LightSource.specular[j] * FrontMaterial.specular * pow(NdotHV, FrontMaterial.shininess );
+
+    return ambient + diffuse + spec;
 }
 
 void main( void )
 {
 	AttribsOut.texCoord = TexCoord.st;
+
     // transformation standard du sommet
     gl_Position = matrProj * matrVisu * matrModel * Vertex;
 
@@ -90,21 +97,19 @@ void main( void )
 	// vecteur L de la direction de la lumiere dans le repere de la camera
 	for (int i = 0; i < 3; i++)
 	{
+		// LightSource.position n'est pas encore dans le repere de la camera
 		AttribsOut.lumiDir[i] = (matrVisu * LightSource.position[i]).xyz - P;
 	}
 
 	// gouraud illumine avec interp des sommets
-	if (typeIllumination == 0)
+	if (typeIllumination == 0) //GOURAUD
 	{
-        vec4 coul =	FrontMaterial.ambient * LightModel.ambient + 
-					FrontMaterial.emission;
         for(int i = 0 ; i < 3 ; i++) {
 			vec3 L = normalize( AttribsOut.lumiDir[i] ); 
-            coul += calculerReflexion(i, L, N, O);
+            AttribsOut.couleur += calculerReflexion(i, L, N, O);
         }
-        AttribsOut.couleur = coul;
 	}
-    else 
+    else // Phong
 	{
 		AttribsOut.couleur = Color;
 	}

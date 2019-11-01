@@ -1,101 +1,101 @@
 ﻿  main.cpp
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-nuanceur.h(52,1): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-nuanceur.h(52,1): warning C4267:  'initializing': conversion from 'size_t' to 'const int', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(70,17): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(71,16): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(305,1): warning C4305:  'initializing': truncation from 'double' to 'GLfloat'
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(360,1): warning C4305:  'initializing': truncation from 'double' to 'GLfloat'
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(444,1): warning C4305:  'initializing': truncation from 'double' to 'float'
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(593,41): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(594,41): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(595,41): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(596,41): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(721,61): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(722,61): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(723,61): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(724,61): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(725,61): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(726,61): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(831,39): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(831,32): warning C4244:  'initializing': conversion from 'double' to 'const GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(832,47): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(832,34): warning C4244:  'initializing': conversion from 'double' to 'const GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(845,28): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(846,28): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(854,39): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(858,25): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(863,25): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(873,17): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(877,35): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(881,21): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(888,17): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(889,29): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(893,35): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(897,21): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(971,50): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(971,37): warning C4244:  'initializing': conversion from 'double' to 'const GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(972,50): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(972,37): warning C4244:  'initializing': conversion from 'double' to 'const GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(988,34): warning C4244:  'initializing': conversion from 'GLdouble' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(990,1): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(990,1): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(994,1): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(994,1): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1075,40): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1075,34): warning C4244:  'initializing': conversion from 'double' to 'const GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1076,40): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1076,34): warning C4244:  'initializing': conversion from 'double' to 'const GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1079,27): warning C4244:  'initializing': conversion from 'GLdouble' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1085,35): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1088,25): warning C4244:  '=': conversion from 'const GLdouble' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1089,25): warning C4244:  '=': conversion from 'const GLdouble' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1089,25): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1092,1): warning C4244:  '+=': conversion from 'const GLdouble' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1094,1): warning C4244:  '+=': conversion from 'const GLdouble' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1105,31): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1108,21): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1108,21): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1111,17): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1114,31): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1117,21): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1117,21): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1188,43): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1188,30): warning C4244:  'initializing': conversion from 'double' to 'const GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1189,48): warning C4244:  'initializing': conversion from 'GLdouble' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1189,30): warning C4244:  'initializing': conversion from 'GLdouble' to 'const GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1193,24): warning C4244:  'initializing': conversion from 'GLdouble' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1199,31): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1202,21): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1203,21): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1373,1): warning C4267:  '=': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\inf2705-forme.h(1393,1): warning C4267:  '=': conversion from 'size_t' to 'GLint', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\Camera.h(14,26): warning C4244:  'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\Camera.h(15,26): warning C4244:  'argument': conversion from 'double' to 'GLfloat', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(100,53): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(119,39): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(120,44): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(121,49): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(126,17): warning C4305:  '+=': truncation from 'double' to 'float'
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(127,36): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(321,33): warning C4305:  'argument': truncation from 'double' to 'GLclampf'
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(360,2): warning C4305:  'initializing': truncation from 'double' to 'const GLfloat'
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(380,2): warning C4305:  'initializing': truncation from 'double' to 'GLfloat'
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(720,65): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(720,65): warning C4244:         with
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(720,65): warning C4244:         [
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(720,65): warning C4244:             T=float
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(720,65): warning C4244:         ]
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(726,33): warning C4305:  '*=': truncation from 'double' to 'float'
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(731,33): warning C4305:  '/=': truncation from 'double' to 'float'
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(768,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(773,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(779,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(784,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(791,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(792,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(798,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(799,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(845,30): warning C4305:  '+=': truncation from 'double' to 'float'
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(849,30): warning C4305:  '-=': truncation from 'double' to 'float'
-C:\Users\tran9\Desktop\inf2705\tp3-reflexions\src\main.cpp(927,31): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
-  tp3_reflexions.vcxproj -> C:\Users\tran9\Desktop\inf2705\tp3-reflexions\x64\Debug\tp3_reflexions.exe
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-nuanceur.h(52,1): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-nuanceur.h(52,1): warning C4267:  'initializing': conversion from 'size_t' to 'const int', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(70,17): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(71,16): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(305,1): warning C4305:  'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(360,1): warning C4305:  'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(444,1): warning C4305:  'initializing': truncation from 'double' to 'float'
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(593,41): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(594,41): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(595,41): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(596,41): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(721,61): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(722,61): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(723,61): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(724,61): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(725,61): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(726,61): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(831,39): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(831,32): warning C4244:  'initializing': conversion from 'double' to 'const GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(832,47): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(832,34): warning C4244:  'initializing': conversion from 'double' to 'const GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(845,28): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(846,28): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(854,39): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(858,25): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(863,25): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(873,17): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(877,35): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(881,21): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(888,17): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(889,29): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(893,35): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(897,21): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(971,50): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(971,37): warning C4244:  'initializing': conversion from 'double' to 'const GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(972,50): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(972,37): warning C4244:  'initializing': conversion from 'double' to 'const GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(988,34): warning C4244:  'initializing': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(990,1): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(990,1): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(994,1): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(994,1): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1075,40): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1075,34): warning C4244:  'initializing': conversion from 'double' to 'const GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1076,40): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1076,34): warning C4244:  'initializing': conversion from 'double' to 'const GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1079,27): warning C4244:  'initializing': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1085,35): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1088,25): warning C4244:  '=': conversion from 'const GLdouble' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1089,25): warning C4244:  '=': conversion from 'const GLdouble' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1089,25): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1092,1): warning C4244:  '+=': conversion from 'const GLdouble' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1094,1): warning C4244:  '+=': conversion from 'const GLdouble' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1105,31): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1108,21): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1108,21): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1111,17): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1114,31): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1117,21): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1117,21): warning C4244:  '=': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1188,43): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1188,30): warning C4244:  'initializing': conversion from 'double' to 'const GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1189,48): warning C4244:  'initializing': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1189,30): warning C4244:  'initializing': conversion from 'GLdouble' to 'const GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1193,24): warning C4244:  'initializing': conversion from 'GLdouble' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1199,31): warning C4244:  'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1202,21): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1203,21): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1373,1): warning C4267:  '=': conversion from 'size_t' to 'GLint', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\inf2705-forme.h(1393,1): warning C4267:  '=': conversion from 'size_t' to 'GLint', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\Camera.h(14,26): warning C4244:  'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\Camera.h(15,26): warning C4244:  'argument': conversion from 'double' to 'GLfloat', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(100,53): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(119,39): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(120,44): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(121,49): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(126,17): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(127,36): warning C4244:  '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(321,33): warning C4305:  'argument': truncation from 'double' to 'GLclampf'
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(360,2): warning C4305:  'initializing': truncation from 'double' to 'const GLfloat'
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(380,2): warning C4305:  'initializing': truncation from 'double' to 'GLfloat'
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(723,65): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(723,65): warning C4244:         with
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(723,65): warning C4244:         [
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(723,65): warning C4244:             T=float
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(723,65): warning C4244:         ]
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(729,33): warning C4305:  '*=': truncation from 'double' to 'float'
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(734,33): warning C4305:  '/=': truncation from 'double' to 'float'
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(771,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(776,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(782,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(787,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(794,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(795,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(801,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(802,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(848,30): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(852,30): warning C4305:  '-=': truncation from 'double' to 'float'
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(930,31): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+  tp3_reflexions.vcxproj -> C:\Users\tran9\Desktop\cgillum\tp3-reflexions\x64\Debug\tp3_reflexions.exe

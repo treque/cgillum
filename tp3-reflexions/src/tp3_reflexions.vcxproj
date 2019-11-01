@@ -184,6 +184,8 @@
     <None Include="nuanceurSommets.glsl" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="nuanceurTessCtrl.glsl" />
+    <None Include="nuanceurTessEval.glsl" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
