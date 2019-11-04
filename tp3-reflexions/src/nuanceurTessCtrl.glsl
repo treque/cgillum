@@ -6,18 +6,19 @@ uniform float TessLevelInner;
 uniform float TessLevelOuter;
 
 in Attribs {
-    vec4 couleur;
-	vec3 normale, obsvec;
-	vec3 lumiDir[3];
-	vec2 texCoord;
+   vec4 couleur;
+   vec3 normale;
+   vec4 pos;
+   vec4 texCoord;
 } AttribsIn[];
 
 out Attribs {
     vec4 couleur;
-	vec3 normale, obsvec;
-	vec3 lumiDir[3];
-	vec2 texCoord;
+    vec3 normale;
+    vec4 pos;
+    vec4 texCoord;
 } AttribsOut[];
+
 
 void main()
 {
@@ -34,7 +35,6 @@ void main()
 
     AttribsOut[gl_InvocationID].couleur = AttribsIn[gl_InvocationID].couleur;
     AttribsOut[gl_InvocationID].normale = AttribsIn[gl_InvocationID].normale;
-    AttribsOut[gl_InvocationID].obsvec = AttribsIn[gl_InvocationID].obsvec;
-    AttribsOut[gl_InvocationID].lumiDir = AttribsIn[gl_InvocationID].lumiDir;
-    AttribsOut[gl_InvocationID].texCoord = AttribsIn[gl_InvocationID].texCoord;
+    AttribsOut[gl_InvocationID].pos = AttribsIn[gl_InvocationID].pos;
+	AttribsOut[gl_InvocationID].texCoord = AttribsIn[gl_InvocationID].texCoord;
 }

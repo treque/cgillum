@@ -75,8 +75,6 @@ vec4 calculerReflexion( in int j, in vec3 L, in vec3 N, in vec3 O ) // pour la l
 
 void main( void )
 {
-	AttribsOut.texCoord = TexCoord.st;
-
     // transformation standard du sommet
     gl_Position = matrProj * matrVisu * matrModel * Vertex;
 

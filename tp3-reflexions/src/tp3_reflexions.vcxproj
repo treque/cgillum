@@ -184,6 +184,7 @@
     <None Include="nuanceurSommets.glsl" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="nuanceurSommetsTess.glsl" />
     <None Include="nuanceurTessCtrl.glsl" />
     <None Include="nuanceurTessEval.glsl" />
     <None Include="packages.config" />

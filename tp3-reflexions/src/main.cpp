@@ -204,18 +204,18 @@ void chargerNuanceurs()
 		prog = glCreateProgram();
 
 		// attacher le nuanceur de sommets
-		const GLchar* chainesSommets = ProgNuanceur::lireNuanceur("nuanceurSommets.glsl");
-		if (chainesSommets != NULL)
-		{
-			GLuint nuanceurObj = glCreateShader(GL_VERTEX_SHADER);
-			glShaderSource(nuanceurObj, 1, &chainesSommets, NULL);
-			glCompileShader(nuanceurObj);
-			glAttachShader(prog, nuanceurObj);
-			ProgNuanceur::afficherLogCompile(nuanceurObj);
-			delete[] chainesSommets;
-		}
 		if (Etat::utiliseTess)
 		{
+			const GLchar* chainesSommets = ProgNuanceur::lireNuanceur("nuanceurSommetsTess.glsl");
+			if (chainesSommets != NULL)
+			{
+				GLuint nuanceurObj = glCreateShader(GL_VERTEX_SHADER);
+				glShaderSource(nuanceurObj, 1, &chainesSommets, NULL);
+				glCompileShader(nuanceurObj);
+				glAttachShader(prog, nuanceurObj);
+				ProgNuanceur::afficherLogCompile(nuanceurObj);
+				delete[] chainesSommets;
+			}
 			// partie 3: À ACTIVER (touche '9')
 			// attacher le nuanceur de controle de la tessellation
 			const GLchar* chainesTessCtrl = ProgNuanceur::lireNuanceur("nuanceurTessCtrl.glsl");
@@ -238,6 +238,19 @@ void chargerNuanceurs()
 				glAttachShader(prog, nuanceurObj);
 				ProgNuanceur::afficherLogCompile(nuanceurObj);
 				delete[] chainesTessEval;
+			}
+		}
+		else
+		{
+			const GLchar* chainesSommets = ProgNuanceur::lireNuanceur("nuanceurSommets.glsl");
+			if (chainesSommets != NULL)
+			{
+				GLuint nuanceurObj = glCreateShader(GL_VERTEX_SHADER);
+				glShaderSource(nuanceurObj, 1, &chainesSommets, NULL);
+				glCompileShader(nuanceurObj);
+				glAttachShader(prog, nuanceurObj);
+				ProgNuanceur::afficherLogCompile(nuanceurObj);
+				delete[] chainesSommets;
 			}
 		}
 		// attacher le nuanceur de fragments
