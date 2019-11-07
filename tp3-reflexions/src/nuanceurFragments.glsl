@@ -54,12 +54,17 @@ out vec4 FragColor;
 
 vec4 calculerReflexion( in int j, in vec3 L, in vec3 N, in vec3 O ) // pour la lumière j
 {
-	float NdotHV = max(0.0, (utiliseBlinn) ? dot(normalize(L + O), N) : dot(reflect(-L, N), O));
-    float NdotL = max(0.0, dot(N, L));
+	float NdotHV = max((utiliseBlinn) ? dot(normalize(L + O), N) : dot(reflect(-L, N), O), 0.0);
+    float NdotL = max(dot(N, L), 0.0);
 
-    return FrontMaterial.diffuse * LightSource.diffuse[j] * NdotL +
-           FrontMaterial.ambient * LightSource.ambient[j] +
-           FrontMaterial.specular * LightSource.specular[j] * pow(NdotHV, FrontMaterial.shininess);
+	vec4 ambient = LightSource.ambient[j] * FrontMaterial.ambient;
+	vec4 diffuse = LightSource.diffuse[j] * FrontMaterial.diffuse * NdotL;
+	
+	vec4 spec = vec4( 0.0 );
+	if ( NdotL > 0.0 )
+		spec = LightSource.specular[j] * FrontMaterial.specular * pow(NdotHV, FrontMaterial.shininess );
+
+    return ambient + diffuse + spec;
 }
 
 void main( void )
@@ -67,8 +72,15 @@ void main( void )
 	vec3 N = normalize(AttribsIn.normale);
 	vec3 O = normalize(AttribsIn.obsvec);
 
+	if( numTexNorm != 0 ) 
+	{
+        vec3  couleur = texture(laTextureNorm, AttribsIn.texCoord).rgb;
+        vec3 dN = normalize( ( couleur  - 0.5 ) * 2.0 );
+        N = normalize( N + dN );
+    }
 
-    if(typeIllumination == 1) { 
+    if(typeIllumination == 1) // phong
+	{ 
 		vec4 coul =	FrontMaterial.ambient * LightModel.ambient + 
 					FrontMaterial.emission;
         for(int i = 0 ; i < 3 ; i++) {         
@@ -77,8 +89,9 @@ void main( void )
         }
         FragColor = coul;
     }
-    else { // gouraud
-         FragColor = AttribsIn.couleur;
+    else {
+		// gouraud
+        FragColor = AttribsIn.couleur;
     }
 
 	if (numTexCoul != 0)
@@ -98,5 +111,5 @@ void main( void )
 		}
 	}
 
-    //if ( afficheNormales ) FragColor = vec4( AttribsIn.normale,1.0);
+    if ( afficheNormales ) FragColor = vec4( AttribsIn.normale,1.0);
 }

@@ -80,22 +80,22 @@ C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(127,36): warning C424
 C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(334,33): warning C4305:  'argument': truncation from 'double' to 'GLclampf'
 C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(373,2): warning C4305:  'initializing': truncation from 'double' to 'const GLfloat'
 C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(393,2): warning C4305:  'initializing': truncation from 'double' to 'GLfloat'
-C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(736,65): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
-C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(736,65): warning C4244:         with
-C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(736,65): warning C4244:         [
-C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(736,65): warning C4244:             T=float
-C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(736,65): warning C4244:         ]
-C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(742,33): warning C4305:  '*=': truncation from 'double' to 'float'
-C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(747,33): warning C4305:  '/=': truncation from 'double' to 'float'
-C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(784,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
-C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(789,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
-C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(795,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
-C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(800,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
-C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(807,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
-C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(808,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
-C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(814,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
-C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(815,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
-C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(861,30): warning C4305:  '+=': truncation from 'double' to 'float'
-C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(865,30): warning C4305:  '-=': truncation from 'double' to 'float'
-C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(943,31): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(746,65): warning C4244:  '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(746,65): warning C4244:         with
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(746,65): warning C4244:         [
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(746,65): warning C4244:             T=float
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(746,65): warning C4244:         ]
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(752,33): warning C4305:  '*=': truncation from 'double' to 'float'
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(757,33): warning C4305:  '/=': truncation from 'double' to 'float'
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(794,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(799,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(805,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(810,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(817,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(818,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(824,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(825,57): warning C4244:  'argument': conversion from 'GLfloat' to 'GLint', possible loss of data
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(871,30): warning C4305:  '+=': truncation from 'double' to 'float'
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(875,30): warning C4305:  '-=': truncation from 'double' to 'float'
+C:\Users\tran9\Desktop\cgillum\tp3-reflexions\src\main.cpp(953,31): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
   tp3_reflexions.vcxproj -> C:\Users\tran9\Desktop\cgillum\tp3-reflexions\x64\Debug\tp3_reflexions.exe

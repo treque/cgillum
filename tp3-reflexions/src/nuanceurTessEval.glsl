@@ -61,7 +61,6 @@ out Attribs {
 
 vec4 calculerReflexion( in int j, in vec3 L, in vec3 N, in vec3 O ) // pour la lumière j
 {
-	
 	float NdotHV = max((utiliseBlinn) ? dot(normalize(L + O), N) : dot(reflect(-L, N), O), 0.0);
     float NdotL = max(dot(N, L), 0.0);
 
@@ -98,7 +97,6 @@ vec4 interpole( vec4 v0, vec4 v1, vec4 v2, vec4 v3 ){
 
 void main()
 {
-
     vec4 Couleur = interpole( AttribsIn[0].couleur, AttribsIn[1].couleur, AttribsIn[3].couleur, AttribsIn[2].couleur );
     vec3 Normale = interpole( AttribsIn[0].normale, AttribsIn[1].normale, AttribsIn[3].normale, AttribsIn[2].normale );
     vec4 Vertex = interpole( AttribsIn[0].pos, AttribsIn[1].pos, AttribsIn[3].pos, AttribsIn[2].pos );
@@ -115,23 +113,25 @@ void main()
 	AttribsOut.obsvec = O;
 	vec3 N = normalize(matrNormale * Normale);
 	AttribsOut.normale = N;
+
+	// vecteur L de la direction de la lumiere dans le repere de la camera
+	vec3 L[3];
 	for (int i = 0; i < 3; i++)
 	{
 		// LightSource.position n'est pas encore dans le repere de la camera
-		AttribsOut.lumiDir[i] = (matrVisu * LightSource.position[i]).xyz - P;
+		L[i] = normalize( (matrVisu * LightSource.position[i]).xyz - P ); 
+		AttribsOut.lumiDir[i] = L[i];
 	}
 
 	// gouraud illumine avec interp des sommets
 	if (typeIllumination == 0) //GOURAUD
 	{
         for(int i = 0 ; i < 3 ; i++) {
-			vec3 L = normalize( AttribsOut.lumiDir[i] ); 
-            AttribsOut.couleur += calculerReflexion(i, L, N, O);
+            AttribsOut.couleur += calculerReflexion(i, L[i], N, O);
         }
 	}
     else // Phong
 	{
 		AttribsOut.couleur = Couleur;
 	}
-
 }
